@@ -1,4 +1,4 @@
-## Some contributions
+##  
 - 
 - jarvis _modular system as assistant with easy input_
 - forex _real-time attosecond 1e18 data_
