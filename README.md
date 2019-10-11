@@ -8,9 +8,9 @@
 - [like-process](https://github.com/LuKks/like-process) gracefully exit
 
 ## Profiles
-- https://github.com/LuKks
-- https://amxmodx-es.com/LuKks
-- https://npmjs.com/~lukks
+- [https://github.com/LuKks](https://github.com/LuKks)
+- [https://amxmodx-es.com/LuKks](https://amxmodx-es.com/LuKks)
+- [https://npmjs.com/~lukks](https://npmjs.com/~lukks)
 
 ## License
 Code released under the [MIT License](https://github.com/LuKks/page/blob/master/LICENSE).
