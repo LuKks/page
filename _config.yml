@@ -1,15 +1,5 @@
-name: LuKks
 title: LuKks/page
 description: 
-repository: lukks
-avatar: https://avatars1.githubusercontent.com/u/12686176
 github:
   repository_url: https://github.com/LuKks
-footer-links:
-  email: lucasbarrena@hotmail.com
-  facebook: lucasbarrena98
-  github: lukks
-  instagram: lucasbarrena
-  linkedin: lucasbarrena
-  youtube: user/qIUz9IdaoFB0NPwaBp2mJQ
 theme: jekyll-theme-cayman
