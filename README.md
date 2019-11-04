@@ -1,6 +1,7 @@
 - 
 - jarvis _modular system as assistant with easy input_
 - forex _real-time attosecond 1e18 data_
+- [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL
 - [like-json](https://github.com/LuKks/like-json) stringify at perfect performance
 - [neural-amxx](https://github.com/LuKks/neural-amxx) deep feedforward neural network
 - [arduino-timer](https://github.com/LuKks/arduino-timer) delay without blocking
