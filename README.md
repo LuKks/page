@@ -10,6 +10,7 @@
 
 ## Profiles
 - [https://github.com/LuKks](https://github.com/LuKks)
+- [https://www.linkedin.com/in/lucasbarrena](https://www.linkedin.com/in/lucasbarrena)
 - [https://amxmodx-es.com/LuKks](https://amxmodx-es.com/LuKks)
 - [https://npmjs.com/~lukks](https://npmjs.com/~lukks)
 
