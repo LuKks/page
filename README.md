@@ -1,7 +1,7 @@
 - 
 - In progress: jarvis _modular system as assistant with easy input_
 - Done but still private: forex _real-time attosecond 1e18 data_
-- _*2019, Nov 18*_ [like-events](https://github.com/LuKks/like-events) async events for better flow
+- *2019, Nov 18* [like-events](https://github.com/LuKks/like-events) async events for better flow
 - _2019, Nov 04_ [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL
 - _2019, Oct 12_ [like-process](https://github.com/LuKks/like-process) handle resources and events for gracefully exit
 - _2019, Aug 14_ [arduino-timer](https://github.com/LuKks/arduino-timer) delay without blocking
