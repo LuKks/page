@@ -1,21 +1,21 @@
 - 
 - In progress: jarvis _modular system as assistant with easy input_
 - Done but still private: forex _real-time attosecond 1e18 data_
-- *2019, Nov 18* [like-events](https://github.com/LuKks/like-events) async events for better flow
-- _2019, Nov 04_ [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL
-- _2019, Oct 12_ [like-process](https://github.com/LuKks/like-process) handle resources and events for gracefully exit
-- _2019, Aug 14_ [arduino-timer](https://github.com/LuKks/arduino-timer) delay without blocking
-- _2019, Jul 15_ [like-server](https://github.com/LuKks/like-server) keep-alive done right at socket level
-- _Working on some private projects_
-- _2018, Aug 30_ [neural-amxx](https://github.com/LuKks/neural-amxx) deep feedforward neural network
-- _2018, Sep 10_ Join date https://www.linkedin.com
-- _2018, Aug 26_ [like-json](https://github.com/LuKks/like-json) stringify at perfect performance
+- _**2019, Nov 18**_ [like-events](https://github.com/LuKks/like-events) async events for better flow
+- _**2019, Nov 04**_ [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL
+- _**2019, Oct 12**_ [like-process](https://github.com/LuKks/like-process) handle resources and events for gracefully exit
+- _**2019, Aug 14**_ [arduino-timer](https://github.com/LuKks/arduino-timer) delay without blocking
+- _**2019, Jul 15**_ [like-server](https://github.com/LuKks/like-server) keep-alive done right at socket level
+- _**Working on some private projects_
+- _**2018, Aug 30**_ [neural-amxx](https://github.com/LuKks/neural-amxx) deep feedforward neural network
+- _**2018, Sep 10**_ Join date https://www.linkedin.com
+- _**2018, Aug 26**_ [like-json](https://github.com/LuKks/like-json) stringify at perfect performance
 - _I started learning deeply_
-- _2015, May 31_ Join date https://github.com
-- _2015, Sep 07_ Join date https://bitbucket.org
-- _2015, Jul_ Join date https://gitlab.com
-- _2014, Jul 09_ Join date https://amxmodx-es.com
-- _2012, Dec 17_ Join date https://forums.alliedmods.net
+- _**2015, May 31**_ Join date https://github.com
+- _**2015, Sep 07**_ Join date https://bitbucket.org
+- _**2015, Jul**_ Join date https://gitlab.com
+- _**2014, Jul 09**_ Join date https://amxmodx-es.com
+- _**2012, Dec 17**_ Join date https://forums.alliedmods.net
 
 ## Profiles
 - [https://github.com/LuKks](https://github.com/LuKks)
