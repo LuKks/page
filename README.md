@@ -6,11 +6,11 @@
 - _**2019, Oct 12**_ [like-process](https://github.com/LuKks/like-process) handle resources and events for gracefully exit
 - _**2019, Aug 14**_ [arduino-timer](https://github.com/LuKks/arduino-timer) delay without blocking
 - _**2019, Jul 15**_ [like-server](https://github.com/LuKks/like-server) keep-alive done right at socket level
-- _Working on some private projects_
+- _**2018-2019**_ Working on some private projects_
 - _**2018, Aug 30**_ [neural-amxx](https://github.com/LuKks/neural-amxx) deep feedforward neural network
 - _**2018, Sep 10**_ Join date https://www.linkedin.com
 - _**2018, Aug 26**_ [like-json](https://github.com/LuKks/like-json) stringify at perfect performance
-- _I started learning deeply_
+- _**2015-2018**_ I started learning deeply_
 - _**2015, May 31**_ Join date https://github.com
 - _**2015, Sep 07**_ Join date https://bitbucket.org
 - _**2015, Jul ??**_ Join date https://gitlab.com
