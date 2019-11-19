@@ -8,14 +8,14 @@
 - _**2019, Jul 15**_ [like-server](https://github.com/LuKks/like-server) keep-alive done right at socket level
 - _**2018-2019**_ Working on some private projects
 - _**2018, Aug 30**_ [neural-amxx](https://github.com/LuKks/neural-amxx) deep feedforward neural network
-- _**2018, Sep 10**_ Join date [https://www.linkedin.com](https://www.linkedin.com)
+- _**2018, Sep 10**_ Join date [linkedin.com](https://www.linkedin.com)
 - _**2018, Aug 26**_ [like-json](https://github.com/LuKks/like-json) stringify at perfect performance
 - _**2015-2018**_ I started learning deeply
-- _**2015, Sep ??**_ Join date [https://gitlab.com](https://gitlab.com)
-- _**2015, May 31**_ Join date [https://github.com](https://github.com)
-- _**2015, ??? ??**_ Join date [https://bitbucket.org](https://bitbucket.org)
-- _**2014, Jul 09**_ Join date [https://amxmodx-es.com](https://amxmodx-es.com)
-- _**2012, Dec 17**_ Join date [https://forums.alliedmods.net](https://forums.alliedmods.net) + First programming language
+- _**2015, Sep ??**_ Join date [gitlab.com](https://gitlab.com)
+- _**2015, May 31**_ Join date [github.com](https://github.com)
+- _**2015, ??? ??**_ Join date [bitbucket.org](https://bitbucket.org)
+- _**2014, Jul 09**_ Join date [amxmodx-es.com](https://amxmodx-es.com)
+- _**2012, Dec 17**_ Join date [forums.alliedmods.net](https://forums.alliedmods.net) + First programming language
 
 ## Profiles
 - [https://github.com/LuKks](https://github.com/LuKks)
