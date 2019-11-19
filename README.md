@@ -16,7 +16,7 @@
 - _**2015, ??? ??**_ Join date [bitbucket.org](https://bitbucket.org)
 - _**2014, Jul 09**_ Join date [amxmodx-es.com](https://amxmodx-es.com)
 - _**2012, Dec 17**_ Join date [forums.alliedmods.net](https://forums.alliedmods.net)
-- _**2012, ??? ??**_ Trying to learn my first programming language
+- _**2012**_ Trying to learn my first programming language
 - _**2009, Nov ??**_ Join date [facebook.com](https://www.facebook.com)
 
 ## Profiles
