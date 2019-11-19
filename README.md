@@ -13,7 +13,7 @@
 - _I started learning deeply_
 - _**2015, May 31**_ Join date https://github.com
 - _**2015, Sep 07**_ Join date https://bitbucket.org
-- _**2015, Jul**_ Join date https://gitlab.com
+- _**2015, Jul ??**_ Join date https://gitlab.com
 - _**2014, Jul 09**_ Join date https://amxmodx-es.com
 - _**2012, Dec 17**_ Join date https://forums.alliedmods.net
 
