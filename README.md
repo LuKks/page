@@ -1,5 +1,4 @@
 - 
-- In progress: jarvis _modular system as assistant with easy input_
 - Done but still private: forex _real-time attosecond 1e18 data_
 - [like-events](https://github.com/LuKks/like-events) async events for better flow
 - [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL
