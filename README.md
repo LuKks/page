@@ -1,6 +1,6 @@
 - 
 - Done but still private: forex _real-time attosecond 1e18 data_
-- [neural-go](https://github.com/LuKks/neural-go) deep feedforward neural networks ![GitHub stars](https://img.shields.io/github/stars/LuKks/neural-go?style=plastic)
+- [neural-go](https://github.com/LuKks/neural-go) genetic neural networks ![GitHub stars](https://img.shields.io/github/stars/LuKks/neural-go?style=plastic)
 - [like-events](https://github.com/LuKks/like-events) async events for better flow ![](https://img.shields.io/npm/dt/like-events.svg?style=plastic)
 - [like-mysql](https://github.com/LuKks/like-mysql) intuitive ORM for MySQL ![](https://img.shields.io/npm/dt/like-mysql.svg?style=plastic)
 - [like-process](https://github.com/LuKks/like-process) handle resources and events for gracefully exit ![](https://img.shields.io/npm/dt/like-process.svg?style=plastic)
