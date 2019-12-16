@@ -43,6 +43,11 @@
           <img src="https://i.imgur.com/vwOmaMk.png" style="width: 24px;vertical-align: middle;">
           <data id="jarvis-window">Offline</data>
         </div>
+        
+        <div>
+          <img src="https://i.imgur.com/wpEoZJa.png" style="width: 24px; vertical-align: middle;">
+          <data id="jarvis-browser">Offline</data>
+        </div>
 
         <div>
           <img src="https://i.imgur.com/YE7as9q.png" style="width: 24px; vertical-align: middle;">
@@ -186,6 +191,20 @@
 
         let name = info.name.split('_').map(w => w.charAt(0).toUpperCase() + w.substr(1)).join(' ');
         byId('jarvis-window').innerHTML = 'Linux / ' + name;
+      }
+      
+      handlers.onbrowser = function (info) {
+        if (info === undefined) {
+          byId('jarvis-browser').innerHTML = 'Offline';
+          return;
+        }
+        
+        let tab = info.tabs.filter(tab => tab.active);
+        let state = info.window.state === 'maximized' ? (info.window.focused ? 'focused' : 'unfocused') : info.window.state;
+        if (tab.status !== 'complete') {
+          state = tab.status;
+        }
+        byId('jarvis-window').innerHTML = (tab.url ? tab.url : '*****') + 'www.google.com [' + state + ']';
       }
 
       function byId (id) {
