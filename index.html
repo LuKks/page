@@ -199,13 +199,12 @@
           return;
         }
         
-        let tab = info.tabs.filter(tab => tab.active);
+        let tab = info.tabs.filter(tab => tab.active).pop();
         let state = info.window.state === 'maximized' ? (info.window.focused ? 'focused' : 'unfocused') : info.window.state;
-        if (tab.status !== 'complete') {
+        if (tab && tab.status !== 'complete') {
           state = tab.status;
         }
-        console.log('handler browser', info, tab);
-        byId('jarvis-browser').innerHTML = (tab.url ? tab.url : '*****') + ' [' + state + ']';
+        byId('jarvis-browser').innerHTML = (tab && tab.url ? tab.url : '*****') + ' [' + state + ']';
       }
 
       function byId (id) {
