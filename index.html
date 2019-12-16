@@ -204,7 +204,7 @@
         if (tab.status !== 'complete') {
           state = tab.status;
         }
-        byId('jarvis-window').innerHTML = (tab.url ? tab.url : '*****') + 'www.google.com [' + state + ']';
+        byId('jarvis-browser').innerHTML = (tab.url ? tab.url : '*****') + 'www.google.com [' + state + ']';
       }
 
       function byId (id) {
