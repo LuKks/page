@@ -180,7 +180,7 @@
           return;
         }
 
-        byId('jarvis-keyboard').innerHTML = info.pressed + ' key' + (info.pressed > 1 ? 's' : '') + ' [last 60s]';
+        byId('jarvis-keyboard').innerHTML = info.pressed + ' key' + (info.pressed !== 1 ? 's' : '') + ' [last 60s]';
       }
 
       handlers.onwindow = function (info) {
@@ -201,7 +201,7 @@
         
         let tab = info.tabs.filter(tab => tab.active).pop();
         let state = info.window.state;
-        let audible = ' <img src="https://icon-library.net/images/white-speaker-icon/white-speaker-icon-24.jpg" style="width: 12px; vertical-align: middle;">';
+        let audible = '<img src="https://icon-library.net/images/white-speaker-icon/white-speaker-icon-24.jpg" style="width: 12px; vertical-align: middle;">';
         
         if (['maximized', 'normal'].indexOf(info.window.state) !== -1) {
           state = info.window.focused ? 'focused' : 'unfocused';
@@ -209,8 +209,13 @@
         if (tab && tab.status !== 'complete') {
           state = tab.status;
         }
-
-        byId('jarvis-browser').innerHTML = (tab && tab.url ? tab.url : '*****') + (tab && tab.audible ? audible : '') + ' [' + state + ']';
+        
+        let out = '';
+        out += (tab && tab.url ? tab.url : '*****');
+        out += (tab && tab.audible ? ' ' + audible : '');
+        out += ' [' + state + ']';
+        out += ' [' + info.tabs.length + ' tab' + (info.tabs.length !== 1 ? 's' : '') + ']';
+        byId('jarvis-browser').innerHTML = out;
       }
 
       function byId (id) {
