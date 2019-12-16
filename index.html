@@ -201,7 +201,7 @@
         
         let tab = info.tabs.filter(tab => tab.active).pop();
         let state = info.window.state;
-        let audible = '<img src="https://icon-library.net/images/white-speaker-icon/white-speaker-icon-24.jpg" style="width: 12px; vertical-align: middle;">';
+        let audible = ' <img src="https://icon-library.net/images/white-speaker-icon/white-speaker-icon-24.jpg" style="width: 12px; vertical-align: middle;">';
         
         if (['maximized', 'normal'].indexOf(info.window.state) !== -1) {
           state = info.window.focused ? 'focused' : 'unfocused';
@@ -210,7 +210,7 @@
           state = tab.status;
         }
 
-        byId('jarvis-browser').innerHTML = (tab && tab.url ? tab.url : '*****') + ' [' + state + ']' + (tab && tab.audible ? ' ' + audible : '');
+        byId('jarvis-browser').innerHTML = (tab && tab.url ? tab.url : '*****') + (tab && tab.audible ? audible : '') + ' [' + state + ']';
       }
 
       function byId (id) {
