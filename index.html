@@ -113,9 +113,11 @@
         try {
           let verified = pubkey.verify(forge.md.sha1.create().update(JSON.stringify(message.data), 'utf8').digest().bytes(), message.signature);
           if (!verified) {
+            console.log('invalid signature');
             return;
           }
         } catch (err) {
+          console.log('err verify', err);
           return;
         }
 
