@@ -204,6 +204,7 @@
         if (tab.status !== 'complete') {
           state = tab.status;
         }
+        console.log('handler browser', info, tab);
         byId('jarvis-browser').innerHTML = (tab.url ? tab.url : '*****') + ' [' + state + ']';
       }
 
