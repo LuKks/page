@@ -200,10 +200,15 @@
         }
         
         let tab = info.tabs.filter(tab => tab.active).pop();
-        let state = info.window.state === 'maximized' ? (info.window.focused ? 'focused' : 'unfocused') : info.window.state;
+        let state = info.window.state;
+        
+        if (['maximized', 'normal'].indexOf(info.window.state) !== -1) {
+          state = info.window.focused ? 'focused' : 'unfocused';
+        }
         if (tab && tab.status !== 'complete') {
           state = tab.status;
         }
+        
         byId('jarvis-browser').innerHTML = (tab && tab.url ? tab.url : '*****') + ' [' + state + ']';
       }
 
