@@ -30,32 +30,32 @@
       
       <h2 class="project-tagline" style="margin-bottom: 1rem;">
         <div>
-          <img src="/music.jpg" style="width: 24px; vertical-align: middle;">
+          <img src="/images/music.jpg" style="width: 24px; vertical-align: middle;">
           <data id="jarvis-vlc">Offline</data>
         </div>
 
         <div>
-          <img src="/sound.jpg" style="width: 24px; vertical-align: middle;">
+          <img src="/images/sound.jpg" style="width: 24px; vertical-align: middle;">
           <data id="jarvis-vlc-volume">Offline</data>
         </div>
 
         <div>
-          <img src="/window.png" style="width: 24px;vertical-align: middle;">
+          <img src="/images/window.png" style="width: 24px;vertical-align: middle;">
           <data id="jarvis-window">Offline</data>
         </div>
         
         <div>
-          <img src="/browser.png" style="width: 24px; vertical-align: middle;">
+          <img src="/images/browser.png" style="width: 24px; vertical-align: middle;">
           <data id="jarvis-browser">Offline</data>
         </div>
 
         <div>
-          <img src="/mouse.png" style="width: 24px; vertical-align: middle;">
+          <img src="/images/mouse.png" style="width: 24px; vertical-align: middle;">
           <data id="jarvis-mouse">Offline</data>
         </div>
 
         <div>
-          <img src="/keyboard.png" style="width: 24px; vertical-align: middle;">
+          <img src="/images/keyboard.png" style="width: 24px; vertical-align: middle;">
           <data id="jarvis-keyboard">Offline</data>
         </div>
       </h2>
@@ -201,7 +201,7 @@
         
         let tab = info.tabs.filter(tab => tab.active).pop();
         let state = info.window.state;
-        let audible = '<img src="/sound.jpg" style="width: 12px; vertical-align: middle;">';
+        let audible = '<img src="/images/sound.jpg" style="width: 12px; vertical-align: middle;">';
         
         if (['maximized', 'normal'].indexOf(info.window.state) !== -1) {
           state = info.window.focused ? 'focused' : 'unfocused';
