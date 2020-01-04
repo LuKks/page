@@ -217,6 +217,27 @@
         out += ' [' + info.tabs.length + ' tab' + (info.tabs.length !== 1 ? 's' : '') + ']';
         byId('jarvis-browser').innerHTML = out;
       }
+      
+      (function () {
+        var interval;
+        var elem = document.querySelector('.page-header');
+        var deg = { min: 140, max: 220, value: 0, dir: false };
+        deg.value = deg.min;
+        
+        if (!elem) {
+          return;
+        }
+
+        clearInterval(interval);
+        interval = setInterval(function () {
+            elem.style.backgroundImage = 'linear-gradient(' + deg.value + 'deg, #155799, #159957)';
+
+            if (deg.value === deg.min || deg.value === deg.max) {
+                deg.dir = !deg.dir;
+            }
+            deg.dir ? deg.value++ : deg.value--;
+        }, 50);
+      })();
 
       function byId (id) {
         if (!elems[id]) {
