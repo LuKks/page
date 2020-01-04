@@ -163,7 +163,7 @@
 
         byId('jarvis-vlc').innerHTML = song + ' [' + (info.state === 'playing' ? time : info.state) + ']';
         byId('jarvis-vlc-volume').innerHTML = 'Music ' + info.volume + '%';
-      }
+      };
 
       handlers.onmouse = function (info) {
         if (info === undefined) {
@@ -172,7 +172,7 @@
         }
 
         byId('jarvis-mouse').innerHTML = 'X ' + info.pos.x + ', Y ' + info.pos.y + ', Clicks ' + info.clicks;
-      }
+      };
 
       handlers.onkeyboard = function (info) {
         if (info === undefined) {
@@ -181,7 +181,7 @@
         }
 
         byId('jarvis-keyboard').innerHTML = info.pressed + ' key' + (info.pressed !== 1 ? 's' : '') + ' [last 60s]';
-      }
+      };
 
       handlers.onwindow = function (info) {
         if (info === undefined) {
@@ -191,7 +191,7 @@
 
         let name = info.name.split('_').map(w => w.charAt(0).toUpperCase() + w.substr(1)).join(' ');
         byId('jarvis-window').innerHTML = 'Linux / ' + name;
-      }
+      };
       
       handlers.onbrowser = function (info) {
         if (info === undefined) {
@@ -216,7 +216,7 @@
         out += ' [' + state + ']';
         out += ' [' + info.tabs.length + ' tab' + (info.tabs.length !== 1 ? 's' : '') + ']';
         byId('jarvis-browser').innerHTML = out;
-      }
+      };
       
       (function () {
         var interval;
