@@ -184,7 +184,7 @@
           return;
         }
 
-        byId('jarvis-keyboard').innerHTML = info.pressed + ' key' + (info.pressed !== 1 ? 's' : '') + ' [last 60s]';
+        byId('jarvis-keyboard').innerHTML = info.pressed + ' key' + (info.pressed !== 1 ? 's' : '') + ' [last minute]';
       };
 
       handlers.onwindow = function (info) {
